@@ -11,7 +11,19 @@
  --fonte: font-family: 'Josefin Sans', sans-serif;
 }
 
-
+main {
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    max-width: 400px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    
+}
 
 
 
