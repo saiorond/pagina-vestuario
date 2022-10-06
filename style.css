@@ -12,17 +12,20 @@
 }
 
 main {
+    height: 100vh;
+    width: 100vw;
+}
+
+.container {
     display: flex;
-    flex-direction: column;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    min-height: 100vh;
-    max-width: 400px;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    
+}
+
+.imagem {
+   
+    background-size: contain;
+    margin: 0 auto;
+    height: 100px;
+    width: 100px;
 }
 
 
