@@ -16,10 +16,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 50px;
 }
 
 .caixa {
-    margin-top: 50px;
     width: 550px;
     height: 450px;
     display: flex;
@@ -44,9 +44,9 @@
 
 .titulo {
     font-family: 'Josefin Sans', sans-serif;
-    padding: 30px;
+    padding: 20px;
     font-size: 50px;
-    width: 65%;
+    width: 45%;
 }
 
 .texto {
@@ -54,11 +54,13 @@
     color: var(--vermelho-muito-claro);
     font-family: 'Josefin Sans', sans-serif;
     font-size: 16px;
-    width: 70%;
+    width: 60%;
 }
 
 .input {
     background-image: var(--vermelho-claro) url(./images/icon-arrow.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: 'Josefin Sans', sans-serif;
     background: transparent;
     margin: 30px;
