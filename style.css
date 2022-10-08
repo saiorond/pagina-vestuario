@@ -58,7 +58,7 @@
 }
 
 .input {
-    background-image: var(--vermelho-claro) url(./images/icon-arrow.svg);
+    background-image: url(./images/icon-arrow.svg);
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Josefin Sans', sans-serif;
