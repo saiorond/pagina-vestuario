@@ -58,9 +58,6 @@
 }
 
 .input {
-    background-image: url(./images/icon-arrow.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
     font-family: 'Josefin Sans', sans-serif;
     background: transparent;
     margin: 30px;
@@ -75,6 +72,42 @@
     width: 350px;
 }
 
+.button {
+    background-color: var(--vermelho-claro);
+    color: var(--vermelho-claro);
+    padding: 16px;
+    border-radius: 30px;
+}
+
+.caixa i {
+    position: absolute;
+    top: 40%;
+    right: 10px;
+    visibility: hidden;
+}
+
+.caixa small {
+    font-size: 12px;
+    font-weight: bold;
+    bottom: 0;
+    left: 0;
+    margin-left: 4px;
+    visibility: hidden;
+}
+
+.caixa.error input {
+    border-color: #e74c3c; 
+} 
+
+.caixa.error i.icone-erro {
+    color: #e74c3c; 
+    visibility: visible;
+}
+
+.caixa.error small {
+    visibility: visible;
+    color: #c31a08;
+}
 
 
 .attribution { 
