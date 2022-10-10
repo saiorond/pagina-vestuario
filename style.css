@@ -21,6 +21,7 @@
 }
 
 .caixa {
+    position: relative;
     width: 550px;
     height: 450px;
     display: flex;
@@ -45,6 +46,8 @@
 }
 
 .titulo {
+    position: relative;
+    left: -30px;
     font-family: 'Josefin Sans', sans-serif;
     padding: 20px;
     font-size: 50px;
@@ -60,9 +63,8 @@
 }
 
 .form {
-    width: 200px;
     position: relative;
-    margin: 30px 0;
+    margin: 20px 0;
     width: 300px;
 }
 
@@ -73,7 +75,7 @@
 }
 
 .input {
-    position: absolute;
+    position: relative;
     right: 0;
     top: 0;
     font-family: 'Josefin Sans', sans-serif;
@@ -104,38 +106,44 @@
     width: 350px;
 }
 
-.caixa i {
+.icones {
+    position: relative;
+    width: 300px;
+    height: 65px;
+}
+
+.icone-erro {
     position: absolute;
-    top: 40%;
-    right: 10px;
+    bottom: 40%;
+    right: 30%;
     visibility: hidden;
 }
 
-.caixa small {
+.small {
+    position: absolute;
     font-size: 12px;
-    font-weight: bold;
     bottom: 0;
     left: 0;
-    margin-left: 4px;
+    margin-left: 10px;
     visibility: hidden;
 }
 
-.caixa.error input {
+.input .erro {
     border-color: #e74c3c; 
 } 
 
-.caixa.error i.icone-erro {
+.icone-erro .erro {
     color: #e74c3c; 
     visibility: visible;
 }
 
-.caixa.error small {
+.small .erro {
     visibility: visible;
     color: #c31a08;
 }
 
-
 .attribution { 
+    margin-top: 20px;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 11px; text-align: center; 
 }
