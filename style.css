@@ -33,7 +33,8 @@
 }
 
 .logo {
-    left: 50px;
+    position: relative;
+    left: -100px;
     padding: 30px;
     height: 25px;
     width: 20%;
@@ -45,10 +46,10 @@
 }
 
 .titulo {
-    top: 70px;
+    position: relative;
     left: -30px;
     font-family: 'Josefin Sans', sans-serif;
-    padding: 20px;
+    padding: 15px;
     font-size: 50px;
     width: 45%;
 }
@@ -82,11 +83,10 @@
     font-family: 'Josefin Sans', sans-serif;
     background: transparent;
     padding: 16px;
-    border: 2px solid var(--vermelho-muito-claro);
+    border: 2px solid rgb(225, 224, 224);
     border-radius: 30px;
     width: 300px;
-    outline: none;
-    
+    outline: none;   
 }
 
 .button {
@@ -100,6 +100,7 @@
     cursor: pointer;
     box-sizing: border-box;
     width: 80px;
+    box-shadow: 5px 5px 10px rgb(195, 192, 192);
 }
 
 .button:hover {
