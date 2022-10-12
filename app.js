@@ -1,6 +1,7 @@
+const form = document.querySelector("form");
 const email = document.getElementById("email");
 
-email.addEventListener('submit', (e) => {
+form.addEventListener('submit', (e) => {
     e.preventDefault();
 
     checarInputs();
@@ -9,20 +10,21 @@ email.addEventListener('submit', (e) => {
 function checarInputs() {
     const valorEmail = email.value;
 
-    if (valorEmail === " ") {
-        mensagemDeErro(valorEmail, "O e-mail é obrigatório");
+    if (valorEmail === "" ) {
+        mensagemDeErro(email, "O e-mail é obrigatório");
     } else if (!checkEmail(valorEmail)) {
-        mensagemDeErro(valorEmail, "Por favor, insira um e-mail válido")
-    } 
+        mensagemDeErro(email, "Por favor, insira um e-mail válido")
+    }
+    return;
 }
 
 function mensagemDeErro(input, message) {
     const controle = input.parentElement;
-    const small = controle.querySelector("small");
+    const divSmall = controle.querySelector(".small");
 
-    small.innerText = message;
+    divSmall.innerText = message;
 
-    controle.className = "caixa erro"
+    controle.className = "icones erro";
 }
 
 function checkEmail(email) {

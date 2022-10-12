@@ -33,8 +33,7 @@
 }
 
 .logo {
-    position: relative;
-    left: -100px;
+    left: 50px;
     padding: 30px;
     height: 25px;
     width: 20%;
@@ -46,7 +45,7 @@
 }
 
 .titulo {
-    position: relative;
+    top: 70px;
     left: -30px;
     font-family: 'Josefin Sans', sans-serif;
     padding: 20px;
@@ -55,6 +54,7 @@
 }
 
 .texto {
+    top: 200px;
     padding-left: 30px;
     color: var(--vermelho-muito-claro);
     font-family: 'Josefin Sans', sans-serif;
@@ -64,17 +64,18 @@
 
 .form {
     position: relative;
-    margin: 20px 0;
+    margin: 5px 0;
     width: 300px;
 }
 
 .botao {
-    position: absolute;
-    right: 0;
-    top: 0;
+    position: relative;
+    margin: 5px 0;
+    width: 300px;
 }
 
 .input {
+    margin: 20px 0 0 -10px;
     position: relative;
     right: 0;
     top: 0;
@@ -83,15 +84,15 @@
     padding: 16px;
     border: 2px solid var(--vermelho-muito-claro);
     border-radius: 30px;
-    width: 100%;
+    width: 300px;
     outline: none;
-    box-sizing: border-box;
+    
 }
 
 .button {
     position: absolute;
-    right: 0;
-    top: 0;
+    right: -30px;
+    bottom: 5px;
     background: linear-gradient(hsl(0, 80%, 86%), hsl(0, 74%, 74%));
     border: none;
     padding: 13px;
@@ -114,30 +115,29 @@
 
 .icone-erro {
     position: absolute;
-    bottom: 40%;
-    right: 30%;
+    top: -60%;
+    right: 20%;
     visibility: hidden;
 }
 
 .small {
     position: absolute;
     font-size: 12px;
-    bottom: 0;
-    left: 0;
-    margin-left: 10px;
+    bottom: 70%;
+    left: 2%;
     visibility: hidden;
 }
 
-.input .erro {
+.icones.erro input {
     border-color: #e74c3c; 
 } 
 
-.icone-erro .erro {
+.icones.erro i.icone-erro {
     color: #e74c3c; 
     visibility: visible;
 }
 
-.small .erro {
+.icones.erro small.small{
     visibility: visible;
     color: #c31a08;
 }
