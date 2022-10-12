@@ -102,6 +102,12 @@
     width: 80px;
 }
 
+.button:hover {
+    width: 85px;
+    padding: 20px;
+    bottom: 0;
+}
+
 .imagem {
     height: 450px;
     width: 350px;
@@ -123,9 +129,11 @@
 .small {
     position: absolute;
     font-size: 12px;
-    bottom: 70%;
+    bottom: 72%;
     left: 2%;
     visibility: hidden;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
 }
 
 .icones.erro input {
