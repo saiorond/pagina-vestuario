@@ -109,6 +109,10 @@
     bottom: 0;
 }
 
+.imagem_mobile {
+    display: none;
+}
+
 .imagem {
     height: 450px;
     width: 350px;
@@ -159,3 +163,21 @@
 .attribution a { 
     color: var(--vermelho-muito-claro);
 }
+
+@media(max-width: 500px) {
+    .imagem {
+        display: none;
+    }
+
+    .imagem_mobile {
+        display: block;
+    }
+
+    .container {
+        max-width: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}   
