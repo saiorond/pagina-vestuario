@@ -101,6 +101,7 @@
     box-sizing: border-box;
     width: 80px;
     box-shadow: 5px 5px 10px rgb(195, 192, 192);
+    align-self: center;
 }
 
 .button:hover {
@@ -173,10 +174,11 @@
         display: flex;
         width: 400px;
         justify-content: center;
+        align-items: center;
     }
 
     .container {
-        max-width: 500px;
+        max-width: 400px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -192,45 +194,59 @@
         margin-top: 25px;
         font-size: 32px;
         width: 100px;
-        left: -3px;
+        left: -55px;
         letter-spacing: 8px;
     }
 
     .texto {
+        display: flex;
+        justify-content: flex-start;
         margin-top: 10px;
-        text-align: center;
-        font-size: 14px;
-        width: 250px;
+        font-size: 12px;
+        width: 150px;
     }
 
     .form {
         display: flex;
-        justify-content: center;
+        
     }
 
     .input {
-        margin-top: 40px;
+        font-size: 12px;
+        padding: 10px;
+        margin: 40px 0;
         left: 30px;
-        width: 230px;
+        width: 120px;
     }
 
     .button {
-        width: 60px;
-        right: 2px;
+        width: 40px;
+        height: 40px;
+        bottom: -20px;
+        right: 35px;
         padding: -100px;
     }
 
     .button:hover {
-        width: 65px;
+        width: 40px;
+        height: 40px;
+        bottom: -20px;
+        right: 35px;
         padding: -100px;
     }
 
+    .icones.erro input {
+        border-color: #e74c3c; 
+    } 
+
     .icone-erro {
-        right: 65px;
+        top: -75px;
+        right: 140px;
     }
 
     .small {
-        left: 30px;
+        left: 32px;
+        top: -40px;
     }
 
     footer {

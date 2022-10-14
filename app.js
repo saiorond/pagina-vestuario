@@ -14,8 +14,10 @@ function checarInputs() {
         mensagemDeErro(email, "O e-mail é obrigatório");
     } else if (!checkEmail(valorEmail)) {
         mensagemDeErro(email, "Por favor, insira um e-mail válido")
+    } else {
+        alert("O e-mail está correto!");
     }
-    return;
+
 }
 
 function mensagemDeErro(input, message) {
