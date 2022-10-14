@@ -170,7 +170,9 @@
     }
 
     .imagem_mobile {
-        display: block;
+        display: flex;
+        width: 400px;
+        justify-content: center;
     }
 
     .container {
@@ -179,5 +181,59 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
+    }
+
+    .titulo {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        line-height: 26px;
+        margin-top: 25px;
+        font-size: 32px;
+        width: 100px;
+        left: -3px;
+        letter-spacing: 8px;
+    }
+
+    .texto {
+        margin-top: 10px;
+        text-align: center;
+        font-size: 14px;
+        width: 250px;
+    }
+
+    .form {
+        display: flex;
+        justify-content: center;
+    }
+
+    .input {
+        margin-top: 40px;
+        left: 30px;
+        width: 230px;
+    }
+
+    .button {
+        width: 60px;
+        right: 2px;
+        padding: -100px;
+    }
+
+    .button:hover {
+        width: 65px;
+        padding: -100px;
+    }
+
+    .icone-erro {
+        right: 65px;
+    }
+
+    .small {
+        left: 30px;
+    }
+
+    footer {
+        display: none;
     }
 }   
