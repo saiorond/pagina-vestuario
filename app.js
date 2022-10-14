@@ -17,7 +17,6 @@ function checarInputs() {
     } else {
         alert("O e-mail está correto!");
     }
-
 }
 
 function mensagemDeErro(input, message) {

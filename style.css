@@ -194,62 +194,29 @@
         margin-top: 25px;
         font-size: 32px;
         width: 100px;
-        left: -55px;
+        left: -30px;
         letter-spacing: 8px;
     }
 
     .texto {
-        display: flex;
-        justify-content: flex-start;
-        margin-top: 10px;
-        font-size: 12px;
-        width: 150px;
+        position: relative;
+        left: -15px;
+        top: 10px;
+        margin-bottom: 20px;
+        font-size: 14px;
+        width: 200px;
+        text-align: justify;
     }
 
     .form {
-        display: flex;
-        
-    }
-
-    .input {
+        right: 80px;
         font-size: 12px;
         padding: 10px;
         margin: 40px 0;
-        left: 30px;
-        width: 120px;
+        width: 120px;   
     }
 
-    .button {
-        width: 40px;
-        height: 40px;
-        bottom: -20px;
-        right: 35px;
-        padding: -100px;
-    }
-
-    .button:hover {
-        width: 40px;
-        height: 40px;
-        bottom: -20px;
-        right: 35px;
-        padding: -100px;
-    }
-
-    .icones.erro input {
-        border-color: #e74c3c; 
-    } 
-
-    .icone-erro {
-        top: -75px;
-        right: 140px;
-    }
-
-    .small {
-        left: 32px;
-        top: -40px;
-    }
-
-    footer {
-        display: none;
-    }
+   footer {
+    display: none;
+   }
 }   
